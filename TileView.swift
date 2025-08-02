@@ -1,18 +1,24 @@
-//
-//  TileView.swift
-//  PhotoFinish
-//
-//  Created by Michael on 02.08.25.
-//
-
 import SwiftUI
 
 struct TileView: View {
+	var titleSize: Double
+	var offset: CGSize
+	var image: Image?
+	
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+		if let image {
+			image.resizable()
+				.frame(
+					width: titleSize,
+					height: titleSize
+				)
+				.offset(offset)
+		} else {
+			Color.clear
+		}
     }
 }
 
 #Preview {
-    TileView()
+	TileView(titleSize: 60, offset: .zero, image: Image(systemName: "star"))
 }

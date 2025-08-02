@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4CC05E692E3E4535008B6AA7 /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC05E682E3E4535008B6AA7 /* TileView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		4CC05E5A2E3E43FC008B6AA7 /* PhotoFinish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoFinish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CC05E682E3E4535008B6AA7 /* TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		4CC05E512E3E43FC008B6AA7 = {
 			isa = PBXGroup;
 			children = (
+				4CC05E682E3E4535008B6AA7 /* TileView.swift */,
 				4CC05E5C2E3E43FC008B6AA7 /* PhotoFinish */,
 				4CC05E5B2E3E43FC008B6AA7 /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CC05E692E3E4535008B6AA7 /* TileView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
